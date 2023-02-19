@@ -8,6 +8,10 @@ Gradient Boosting Regressor
 Best hyperparameters ['sbp']:  {'learning_rate': 0.5, 'loss': 'squared_error', 'n_estimators': 500}
 Best hyperparameters ['dbp']:  {'learning_rate': 0.5, 'loss': 'absolute_error', 'n_estimators': 500}
 
+['sampen', 'fuzzyen', 'svden', 
+'skewness', 'MadNN', 'incren', 
+'dispen', 
+'kurtosis', 'SpEn', 'cumulativeresidual']
 
 
 Model selection:
@@ -21,3 +25,13 @@ Multi-layer Perceptron
 
 Best hyperparameters ['sbp']:  {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'solver': 'sgd', 'validation_fraction': 0.2}
 Best hyperparameters ['dbp']:  {'activation': 'relu', 'hidden_layer_sizes': (100, 100, 100), 'solver': 'adam', 'validation_fraction': 0.2}
+
+
+
+Results:
+
+	Model	Target	   MAE	    C-index
+0	 SVR	 sbp	 10.716830	0.783091
+1	 SVR	 dbp	 4.993050	0.748422
+2	 MLP	 sbp	 10.660200	0.790894
+3	 MLP	 dbp	 5.231168	0.738001

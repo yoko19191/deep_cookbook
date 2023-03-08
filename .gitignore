@@ -138,3 +138,4 @@ dmypy.json
 /data
 
 PPG_BP_estimator_project/Data/**/*.csv
+pytorch_templete/data/*
